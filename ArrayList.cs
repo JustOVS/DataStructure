@@ -130,12 +130,12 @@ namespace DataStructure
             }
 
         }
-        public void StartAdd(int item)  //5-2 добавление в начало
+        public void AddToStart(int item)  //5-2 добавление в начало
         {
             this.Insert(item, 0);
         }
 
-        public void StartAdd(int[] item)  //5-22 добавление в начало
+        public void AddToStart(int[] item)  //5-22 добавление в начало
         {
             this.Insert(item, 0);
         }
@@ -170,12 +170,12 @@ namespace DataStructure
             }
         }
 
-        public void StartRemove() // 5-5 удаление из начала
+        public void RemoveFromStart() // 5-5 удаление из начала
         {
             this.RemoveOfIndex(0);
         }
 
-        public void StartRemove(int quantity) // 5-25 удаление из начала
+        public void RemoveFromStart(int quantity) // 5-25 удаление из начала
         {
             this.RemoveOfIndex(0, quantity);
         }

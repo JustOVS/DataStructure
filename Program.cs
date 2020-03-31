@@ -45,12 +45,19 @@ namespace DataStructure
            // }
            // a.SortDown();
            // a.RemoveItem(7);
-            for (int i = 0; i < a.Length; i++)
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    Console.WriteLine("------");
+            //    Console.WriteLine(a[i]);
+            //}
+            //Console.WriteLine(a.Length);
+            IDataStructure ooo = new LinkedList(5);
+            ooo.AddToStart(10);
+            
+            for (int i = 0; i < ooo.ReturnMassive().Length; i++)
             {
-                Console.WriteLine("------");
-                Console.WriteLine(a[i]);
+                Console.WriteLine(ooo.ReturnMassive()[i]);
             }
-            Console.WriteLine(a.Length);
             
         }
     }

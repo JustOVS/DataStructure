@@ -17,9 +17,9 @@ namespace DataStructure
 
         public void Insert(int[] addmassive, int index); // 5-23 добавление по индексу массива
 
-        public void StartAdd(int item);  //5-2 добавление в начало
+        public void AddToStart(int item);  //5-2 добавление в начало
 
-        public void StartAdd(int[] item);  //5-22 добавление в начало
+        public void AddToStart(int[] item);  //5-22 добавление в начало
 
         public int[] ReturnMassive();  // 5-10 вернуть массив
 
@@ -27,9 +27,9 @@ namespace DataStructure
 
         public void RemoveOfIndex(int index, int quantity); //5-26 удаление по индексу
 
-        public void StartRemove(); // 5-5 удаление из начала
+        public void RemoveFromStart(); // 5-5 удаление из начала
 
-        public void StartRemove(int quantity); // 5-25 удаление из начала
+        public void RemoveFromStart(int quantity); // 5-25 удаление из начала
 
         public int IndexOfItem(int item); // 5-8 индекс по значению
 
