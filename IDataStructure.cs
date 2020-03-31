@@ -48,7 +48,13 @@ namespace DataStructure
         public int MinItemIndex(); //5-15 индекс мин элемента
 
         public int MaxItemIndex(); //5-14 индекс макс элемента
-        
+
+        public int this[int index] { get; set; }
+
+
+
+
+
 
 
 
